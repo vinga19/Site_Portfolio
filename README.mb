@@ -1,0 +1,39 @@
+
+
+#CRIANDO PORTIFÓLIO 
+
+Desenvolvimento do WebSite
+
+Abastecendo com conhecimentos adquiridos
+
+
+Até o momento foi utilizado apenas as tecnologias:
+
+	* HTML, CSS e JS
+	* Bootstrap
+	
+
+@ Pretendo implementar um Framework que seja usual pelas grandes empresas 
+	ex: 
+
+		* Vue.Js
+		* Angular.JS
+		* React.js
+
+@ Sera criado uma pagina com form para comunicação com banco,
+  utilizarei :
+
+  	* Java 8 ( como comunicador entre servidor e BD)
+	* VS code ( como IDE preferida )
+	* MySQL ( Banco Relacional, utilizado por grandes empresas)
+
+
+@ Estou em Duvida se criarei as tabelas e colunas com Java ou diretamente no MySQL.
+	
+	* Criar as tabelas com o Java sera um desafio e aprendizado.
+	* Fazer comunicações com BD usando Java sera um desafio e aprendizado.
+
+
+
+
+
