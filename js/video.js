@@ -26,11 +26,11 @@ function trocar(){
 	mostra = !mostra;
 	console.log(mostra)
 	if(mostra == false){
-		document.getElementById('logo').style.display = "none";
-		document.getElementById('logo2').style.display = "block";
+		document.getElementById('text1').style.display = "none";
+		document.getElementById('text2').style.display = "block";
 	}else if(mostra == true){
-		document.getElementById('logo').style.display = "block";
-		document.getElementById('logo2').style.display = "none";
+		document.getElementById('text1').style.display = "block";
+		document.getElementById('text2').style.display = "none";
 	}
 	
 }

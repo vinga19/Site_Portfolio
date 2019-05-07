@@ -48,18 +48,13 @@ body {
   font-weight: 700;
 }
 
-
-/*
-.logo
+.logo,logo2
 {
   width: 180px;
   height: 180px;
  
-  
-  
 
-
-}*/
+}
 
 .nav-masthead .nav-link {
   padding: .50rem 0;
