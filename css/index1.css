@@ -1,8 +1,12 @@
 
+
+font-family: 'Open Sans', sans-serif;
+
 a,
 a:focus,
 a:hover {
   color: #fff;
+  
 }
 
 /* Personalizando botão  */
@@ -21,8 +25,7 @@ a:hover {
 
 html,
 body {
-  height: 100%;
-  width: 100%;
+  
   
 }
 
@@ -48,16 +51,25 @@ body {
   font-weight: 700;
 }
 
-.logo,logo2
+.logo
 {
-  width: 180px;
-  height: 180px;
- 
-
+  width: 80px;
+  height: 80px;
+ margin-top:-30px ;
 }
 
+.text
+{
+  
+  height: 89vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .nav-masthead .nav-link {
-  padding: .50rem 0;
+  padding: .20rem 0;
   font-weight: 700;
   color:#fff;
   
@@ -86,25 +98,10 @@ body {
     float: right;
   }
 }
-@media(min-width:770px){
-  .logo{
-    margin-left: -210px;
-    margin-top: -50px;
 
-  }
-  .inner1
-  {
-    margin-left: 200px;
-  }
-}
-@media(max-width:769px)
+.badge
 {
- .inner1
- {
-   align-items: center;
- }
- 
-
+  opacity: 0.8;
 }
 
 
@@ -134,10 +131,14 @@ body {
 .inner
 {
   text-align: center;
+  font-family: 'Open Sans';
 }
+
+/*
 .main
 {
   text-align: center;
   height: 40%;
+  
 }
-
+*/
