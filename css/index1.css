@@ -99,6 +99,13 @@ body {
   }
 }
 
+@media(max-width:760px)
+{
+  .logo{
+    width: 80px;
+    height: 80px;
+  }
+}
 .badge
 {
   opacity: 0.8;
