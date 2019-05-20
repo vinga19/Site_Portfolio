@@ -1,78 +1,35 @@
+/* CLASS COMUM A TODAS AS TEGS DE TEXTO */
 
-
-font-family: 'Open Sans', sans-serif;
-
-a,
-a:focus,
-a:hover {
-  color: #fff;
-  
+p{
+  text-align: center;
+  font-family: 'Lobster' ;
 }
 
-/* Personalizando botão  */
-.btn-secondary,
-
-.btn-secondary:focus {
-  color:white;
-  background-color:rgb(1, 35, 63);
-  border: .05rem solid white;
-}
-
-
-/*
- * Estrutura Base
- */
-
-html,
-body {
-  
-  
-}
-
-body {
-  display: -ms-flexbox;
-  display: flex;
-  color: #fff;
-  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
-}
-.ipet-container {
-  width: 700px;
-  
-}
-/*
- * 
- */
- .ipet {
-  padding: 0 1.5rem;
-}
-.ipet .btn-lg {
-  padding: .75rem 1.25rem;
-  font-weight: 700;
-}
-
-.logo
+.inner
 {
-  width: 80px;
-  height: 80px;
- margin-top:-30px ;
+  text-align: center;
+  font-family:'Lobster';
+  color: rgb(22, 22, 19);
 }
 
-.text
+#text1
 {
-  
-  height: 89vh;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  font-size: 8ch;
 }
+
+/* Estrutura da navbar */
+
+.badge-secondary
+{
+  background-color: black;
+  color: rgb(18, 112, 156);
+}
+
 .nav-masthead .nav-link {
   padding: .20rem 0;
   font-weight: 700;
-  color:#fff;
-  
+  color:black;
+
   border-bottom: .25rem solid transparent;
 }
 
@@ -86,9 +43,28 @@ body {
 }
 
 .nav-masthead .active {
-  color:rgb(1, 35, 63);
+  color:#fff;
   border-bottom-color: #fff;
 }
+
+
+/* Texto central */
+
+
+.text
+{
+
+  height: 100vh;
+  margin: auto;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+/* ESTRUTURA MEDIA */
 
 @media (min-width: 48em) {
   .masthead-brand {
@@ -105,47 +81,59 @@ body {
     width: 80px;
     height: 80px;
   }
+  .img1
+  {
+    margin-top: 10px;
+  }
 }
+
 .badge
 {
   opacity: 0.8;
 }
 
 
+/* ESTRUTURA VIDEO */
+
+
 .bg_video{
-	position: fixed; 
-	right: 0; 
+	position: fixed;
+	right: 0;
 	bottom: 0;
-	min-width: 100%; 
+	min-width: 100%;
 	min-height: 100%;
-	width: auto; 
-	height: auto; 
+	width: auto;
+	height: auto;
 	z-index: -1000;
-	background-size: cover; 
+  background-size: cover;
+  padding: 0;
 }
 
-
-/*
- * Rodapé (footer)
- */
-.mastfoot {
-  color: rgba(255, 255, 255, .5);
-}
-
-/*
- * Tudo que contem a class inner esta centralizado 
- */
-.inner
+.container2
 {
-  text-align: center;
-  font-family: 'Open Sans';
+  background-color: #fff;
+  
+    
 }
 
-/*
-.main
+.img1
 {
-  text-align: center;
-  height: 40%;
+  
+  width: 350px;
+  height: 350px;
+
   
 }
-*/
+
+
+
+
+/*  Rodapé (footer)  */
+.mastfoot {
+  color: rgba(255, 255, 255, .5);
+  background-color: silver;
+  
+
+}
+
+
